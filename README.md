@@ -1,6 +1,6 @@
 # terraform-azurerm-windowsscaleset
 
-[![Build Status](https://github.com/JamesWoolfenden/terraform-azurerm-windowsscalset/workflows/Verify%20and%20Bump/badge.svg?branch=master)](https://github.com/JamesWoolfenden/terraform-azurerm-windowsscalset)
+[![Build Status](https://github.com/JamesWoolfenden/terraform-azurerm-windowsscalset/workflows/Verify%20and%20Bump/badge.svg?branch=main)](https://github.com/JamesWoolfenden/terraform-azurerm-windowsscalset)
 [![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-azurerm-windowsscalset.svg)](https://github.com/JamesWoolfenden/terraform-azurerm-windowsscalset/releases/latest)
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/JamesWoolfenden/terraform-azurerm-windowsscaleset.svg?label=latest)](https://github.com/JamesWoolfenden/terraform-azurerm-windowsscaleset/releases/latest)
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.14.0-blue.svg)
@@ -22,8 +22,8 @@ This is just a very basic example.
 Include **module.windowsscalset.tf** this repository as a module in your existing terraform code:
 
 ```terraform
-module "windowsscalset" {
-  source         = "JamesWoolfenden/windowsscalset/azurerm"
+module "windowsscaleset" {
+  source         = "JamesWoolfenden/windowsscaleset/azurerm"
   common_tags    = var.common_tags
   resource_group = azurerm_resource_group.example
   azurerm_subnet = azurerm_subnet.internal
