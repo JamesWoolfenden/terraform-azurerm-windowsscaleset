@@ -41,6 +41,16 @@ No requirements.
 |------|---------|
 | azurerm | n/a |
 
+## Modules
+
+No Modules.
+
+## Resources
+
+| Name |
+|------|
+| [azurerm_windows_virtual_machine_scale_set](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/windows_virtual_machine_scale_set) |
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
@@ -62,7 +72,6 @@ No requirements.
 | Name | Description |
 |------|-------------|
 | scale\_set | n/a |
-
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Related Projects
