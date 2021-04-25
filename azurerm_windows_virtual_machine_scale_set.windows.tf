@@ -29,5 +29,6 @@ resource "azurerm_windows_virtual_machine_scale_set" "windows" {
       subnet_id = var.azurerm_subnet.id
     }
   }
-  tags = var.common_tags
+  tags                       = var.common_tags
+  encryption_at_host_enabled = true
 }

@@ -39,39 +39,39 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| azurerm | n/a |
+| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | n/a |
 
 ## Modules
 
-No Modules.
+No modules.
 
 ## Resources
 
-| Name |
-|------|
-| [azurerm_windows_virtual_machine_scale_set](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/windows_virtual_machine_scale_set) |
+| Name | Type |
+|------|------|
+| [azurerm_windows_virtual_machine_scale_set.windows](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/windows_virtual_machine_scale_set) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| admin\_password | n/a | `string` | n/a | yes |
-| admin\_username | n/a | `string` | `"adminuser"` | no |
-| azurerm\_subnet | (optional) describe your variable | `any` | n/a | yes |
-| common\_tags | This is to help you add tags to your cloud objects | `map(any)` | n/a | yes |
-| instance\_count | n/a | `number` | `1` | no |
-| os\_disk | n/a | `map(any)` | <pre>{<br>  "caching": "ReadWrite",<br>  "storage_account_type": "Standard_LRS"<br>}</pre> | no |
-| resource\_group | n/a | `any` | n/a | yes |
-| scaleset\_name | n/a | `string` | `"ex-vmss"` | no |
-| sku | n/a | `string` | `"Standard_F2"` | no |
-| source\_image\_reference | n/a | `map(any)` | <pre>{<br>  "offer": "WindowsServer",<br>  "publisher": "MicrosoftWindowsServer",<br>  "sku": "2016-Datacenter-Server-Core",<br>  "version": "latest"<br>}</pre> | no |
-| subnet | (optional) describe your variable | `map(any)` | <pre>{<br>  "name": "backend",<br>  "resource_group_name": "networking",<br>  "virtual_network_name": "production"<br>}</pre> | no |
+| <a name="input_admin_password"></a> [admin\_password](#input\_admin\_password) | n/a | `string` | n/a | yes |
+| <a name="input_admin_username"></a> [admin\_username](#input\_admin\_username) | n/a | `string` | `"adminuser"` | no |
+| <a name="input_azurerm_subnet"></a> [azurerm\_subnet](#input\_azurerm\_subnet) | (optional) describe your variable | `any` | n/a | yes |
+| <a name="input_common_tags"></a> [common\_tags](#input\_common\_tags) | This is to help you add tags to your cloud objects | `map(any)` | n/a | yes |
+| <a name="input_instance_count"></a> [instance\_count](#input\_instance\_count) | n/a | `number` | `1` | no |
+| <a name="input_os_disk"></a> [os\_disk](#input\_os\_disk) | n/a | `map(any)` | <pre>{<br>  "caching": "ReadWrite",<br>  "storage_account_type": "Standard_LRS"<br>}</pre> | no |
+| <a name="input_resource_group"></a> [resource\_group](#input\_resource\_group) | n/a | `any` | n/a | yes |
+| <a name="input_scaleset_name"></a> [scaleset\_name](#input\_scaleset\_name) | n/a | `string` | `"ex-vmss"` | no |
+| <a name="input_sku"></a> [sku](#input\_sku) | n/a | `string` | `"Standard_F2"` | no |
+| <a name="input_source_image_reference"></a> [source\_image\_reference](#input\_source\_image\_reference) | n/a | `map(any)` | <pre>{<br>  "offer": "WindowsServer",<br>  "publisher": "MicrosoftWindowsServer",<br>  "sku": "2016-Datacenter-Server-Core",<br>  "version": "latest"<br>}</pre> | no |
+| <a name="input_subnet"></a> [subnet](#input\_subnet) | (optional) describe your variable | `map(any)` | <pre>{<br>  "name": "backend",<br>  "resource_group_name": "networking",<br>  "virtual_network_name": "production"<br>}</pre> | no |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| scale\_set | n/a |
+| <a name="output_scale_set"></a> [scale\_set](#output\_scale\_set) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## Related Projects
