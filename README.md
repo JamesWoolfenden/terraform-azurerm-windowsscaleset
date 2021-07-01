@@ -1,7 +1,7 @@
 # terraform-azurerm-windowsscaleset
 
-[![Build Status](https://github.com/JamesWoolfenden/terraform-azurerm-windowsscalset/workflows/Verify%20and%20Bump/badge.svg?branch=main)](https://github.com/JamesWoolfenden/terraform-azurerm-windowsscalset)
-[![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-azurerm-windowsscalset.svg)](https://github.com/JamesWoolfenden/terraform-azurerm-windowsscalset/releases/latest)
+[![Build Status](https://github.com/JamesWoolfenden/terraform-azurerm-windowsscaleset/workflows/Verify%20and%20Bump/badge.svg?branch=master)](https://github.com/JamesWoolfenden/terraform-azurerm-windowsscaleset)
+[![Latest Release](https://img.shields.io/github/release/JamesWoolfenden/terraform-azurerm-windowsscaleset.svg)](https://github.com/JamesWoolfenden/terraform-azurerm-windowsscaleset/releases/latest)
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/JamesWoolfenden/terraform-azurerm-windowsscaleset.svg?label=latest)](https://github.com/JamesWoolfenden/terraform-azurerm-windowsscaleset/releases/latest)
 ![Terraform Version](https://img.shields.io/badge/tf-%3E%3D0.14.0-blue.svg)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/JamesWoolfenden/terraform-azurerm-windowsscaleset/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=JamesWoolfenden%2Fterraform-azurerm-windowsscaleset&benchmark=CIS+AWS+V1.2)
@@ -19,7 +19,7 @@ It's 100% Open Source and licensed under the [APACHE2](LICENSE).
 
 This is just a very basic example.
 
-Include **module.windowsscalset.tf** this repository as a module in your existing terraform code:
+Include **module.windowsscaleset.tf** this repository as a module in your existing terraform code:
 
 ```terraform
 module "windowsscaleset" {
@@ -84,13 +84,13 @@ Check out these related projects.
 
 **Got a question?**
 
-File a GitHub [issue](https://github.com/JamesWoolfenden/terraform-azurerm-windowsscalset/issues).
+File a GitHub [issue](https://github.com/JamesWoolfenden/terraform-azurerm-windowsscaleset/issues).
 
 ## Contributing
 
 ### Bug Reports & Feature Requests
 
-Please use the [issue tracker](https://github.com/JamesWoolfenden/terraform-azurerm-windowsscalset/issues) to report any bugs or file feature requests.
+Please use the [issue tracker](https://github.com/JamesWoolfenden/terraform-azurerm-windowsscaleset/issues) to report any bugs or file feature requests.
 
 ## Copyrights
 
@@ -128,8 +128,8 @@ under the License.
 [github]: https://github.com/jameswoolfenden
 [linkedin]: https://www.linkedin.com/in/jameswoolfenden/
 [twitter]: https://twitter.com/JimWoolfenden
-[share_twitter]: https://twitter.com/intent/tweet/?text=terraform-azurerm-windowsscalset&url=https://github.com/JamesWoolfenden/terraform-azurerm-windowsscalset
-[share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=terraform-azurerm-windowsscalset&url=https://github.com/JamesWoolfenden/terraform-azurerm-windowsscalset
-[share_reddit]: https://reddit.com/submit/?url=https://github.com/JamesWoolfenden/terraform-azurerm-windowsscalset
-[share_facebook]: https://facebook.com/sharer/sharer.php?u=https://github.com/JamesWoolfenden/terraform-azurerm-windowsscalset
-[share_email]: mailto:?subject=terraform-azurerm-windowsscalset&body=https://github.com/JamesWoolfenden/terraform-azurerm-windowsscalset
+[share_twitter]: https://twitter.com/intent/tweet/?text=terraform-azurerm-windowsscaleset&url=https://github.com/JamesWoolfenden/terraform-azurerm-windowsscaleset
+[share_linkedin]: https://www.linkedin.com/shareArticle?mini=true&title=terraform-azurerm-windowsscaleset&url=https://github.com/JamesWoolfenden/terraform-azurerm-windowsscaleset
+[share_reddit]: https://reddit.com/submit/?url=https://github.com/JamesWoolfenden/terraform-azurerm-windowsscaleset
+[share_facebook]: https://facebook.com/sharer/sharer.php?u=https://github.com/JamesWoolfenden/terraform-azurerm-windowsscaleset
+[share_email]: mailto:?subject=terraform-azurerm-windowsscaleset&body=https://github.com/JamesWoolfenden/terraform-azurerm-windowsscaleset
