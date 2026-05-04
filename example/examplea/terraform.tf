@@ -1,16 +1,16 @@
 terraform {
   required_providers {
-    azurerm = {
-      version = "2.59.0"
-      source  = "hashicorp/azurerm"
-    }
     template = {
       source  = "hashicorp/template"
       version = "2.2.0"
     }
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "4.71.0"
+    }
     local = {
       source  = "hashicorp/random"
-      version = "3.0.1"
+      version = "3.8.1"
     }
   }
   required_version = ">=0.14.8"
